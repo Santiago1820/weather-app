@@ -45,7 +45,7 @@ def search():
     temperature_label.configure(text=f"Temperatura: {temperature:.2f}°C")
     description_label.configure(text=f"Descripción: {description}")
 
-root = ttkbootstrap.Window(themename="morph")
+root = ttkbootstrap.Window(themename="darkly")
 root.title("Saniago - Weather App")
 root.geometry("400x400")
 
