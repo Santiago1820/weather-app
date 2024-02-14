@@ -66,7 +66,6 @@ def search():
     temperature_label.configure(text=f"Temperatura: {temperature:.2f}°C")
     description_label.configure(text=f"Descripción: {description}")
 
-# De nuestra libreria de tkbootsrap vamos a darle el diseño pre-hecho y usaremos el tema darkly y le daremos un titulo de nuestra ventana, a su vez daremos el tamaño a nuestra ventana
 root = ttkbootstrap.Window(themename="darkly")
 root.title("Saniago - Weather App")
 root.geometry("500x600")
